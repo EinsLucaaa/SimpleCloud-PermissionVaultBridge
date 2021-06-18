@@ -7,7 +7,7 @@ Dieses Plugin sorgt dafür, das du z. B. mit dem Plugin TAB den Prefix für die 
 
 # Installation
 
-1. Lade das Plugin [hier]() herunter.
+1. Lade das Plugin [hier](https://github.com/1combit/SimpleCloud-PermissionVaultBridge/releases/download/1.0/SimpleCloud-PermissionVaultBridge-1.0-SNAPSHOT.jar) herunter.
 
 2. Lade das Plugin in deinen Plugins Ordner.
 
