@@ -1,0 +1,6 @@
+author: 1combit
+name: Vault-SimpleCloud-Bridge
+version: 1.0
+depend:
+  - Vault
+main: de.combit.bridge.VaultBridge
