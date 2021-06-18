@@ -69,6 +69,7 @@ import java.util.Arrays;
     public boolean groupAdd(String world, String group, String permission) {
         IPermissionGroup iPermissionGroup = PermissionPool.getInstance().getPermissionGroupManager().getPermissionGroupByName(group);
         iPermissionGroup.addPermission(new eu.thesimplecloud.module.permission.permission.Permission(permission, -1, true));
+        iPermissionGroup.update();
         return true;
     }
 
@@ -76,6 +77,7 @@ import java.util.Arrays;
     public boolean groupRemove(String world, String group, String permission) {
         IPermissionGroup iPermissionGroup = PermissionPool.getInstance().getPermissionGroupManager().getPermissionGroupByName(group);
         iPermissionGroup.removePermission(permission);
+        iPermissionGroup.update();
         return true;
     }
 
